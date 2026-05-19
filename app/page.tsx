@@ -41,41 +41,62 @@ export default function Home() {
       </section>
 
       {/* SYSTEM */}
-      <section className="py-24 px-6 bg-[#241812]">
+<section className="py-24 px-6 bg-[#241812]">
 
-        <div className="max-w-3xl mx-auto bg-[#3a281f] rounded-3xl p-10 shadow-2xl">
+  <div className="max-w-3xl mx-auto bg-[#3a281f] rounded-3xl p-10 shadow-2xl">
 
-          <h2 className="text-4xl font-bold text-center mb-12">
-            SYSTEM
-          </h2>
+    <h2 className="text-4xl font-bold text-center mb-12">
+      SYSTEM
+    </h2>
 
-          <div className="space-y-6 text-lg">
+    <div className="space-y-6 text-lg">
 
-            <div className="flex justify-between border-b border-gray-600 pb-4">
-              <span>セット料金</span>
-              <span>¥5,000</span>
-            </div>
-
-            <div className="flex justify-between border-b border-gray-600 pb-4">
-              <span>時間制限</span>
-              <span>なし</span>
-            </div>
-
-            <div className="flex justify-between border-b border-gray-600 pb-4">
-              <span>ボトルキープ</span>
-              <span>¥10,000〜</span>
-            </div>
-
-            <div className="flex justify-between">
-              <span>定休日</span>
-              <span>日曜・月曜・祝日</span>
-            </div>
-
-          </div>
-
+      {/* セット料金 */}
+      <div className="border-b border-gray-600 pb-4">
+        <div className="flex justify-between">
+          <span>セット料金（男性）</span>
+          <span>¥5,000</span>
         </div>
+        <div className="flex justify-between mt-2">
+          <span>セット料金（女性）</span>
+          <span>¥2,000</span>
+        </div>
+      </div>
 
-      </section>
+      {/* ボトル */}
+      <div className="flex justify-between border-b border-gray-600 pb-4">
+        <span>ボトルキープ</span>
+        <span>¥10,000〜</span>
+      </div>
+
+      {/* 月曜日 */}
+      <div className="flex justify-between border-b border-gray-600 pb-4">
+        <span>月曜日</span>
+        <span>予約制で営業</span>
+      </div>
+
+      {/* 特別プラン */}
+      <div className="bg-amber-900/40 border border-amber-600 rounded-2xl p-5 mt-6">
+
+        <p className="text-amber-300 font-bold mb-2">
+          掲載見た方限定
+        </p>
+
+        <p className="text-white text-xl font-semibold">
+          初回：飲み放題＋歌い放題
+        </p>
+
+        <p className="text-2xl font-bold text-amber-200 mt-2">
+          ¥6,000ポッキリ
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* CAST */}
       <section className="py-24 px-6">
