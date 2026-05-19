@@ -87,7 +87,13 @@ export default function Home() {
     <span>定休日</span>
   </div>
 
+  <div className="flex justify-between">
+    <span>祝日</span>
+    <span>定休日</span>
+  </div>
+
 </div>
+
 
       {/* 特別プラン */}
       <div className="bg-amber-900/40 border border-amber-600 rounded-2xl p-5 mt-6">
