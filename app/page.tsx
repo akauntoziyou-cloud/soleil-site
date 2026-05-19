@@ -69,11 +69,25 @@ export default function Home() {
         <span>¥10,000〜</span>
       </div>
 
-      {/* 月曜日 */}
-      <div className="flex justify-between border-b border-gray-600 pb-4">
-        <span>月曜日</span>
-        <span>予約制で営業</span>
-      </div>
+      {/* 営業日 */}
+<div className="space-y-3 border-b border-gray-600 pb-4">
+
+  <div className="flex justify-between">
+    <span>月曜日</span>
+    <span>予約制で営業</span>
+  </div>
+
+  <div className="flex justify-between">
+    <span>土曜日</span>
+    <span>定休日</span>
+  </div>
+
+  <div className="flex justify-between">
+    <span>日曜日</span>
+    <span>定休日</span>
+  </div>
+
+</div>
 
       {/* 特別プラン */}
       <div className="bg-amber-900/40 border border-amber-600 rounded-2xl p-5 mt-6">
